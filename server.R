@@ -12,8 +12,9 @@ shinyServer(function(input, output) {
     # create plot from filtered data
     ggplot(data, aes(reorder(Drug, Times_Prescribed), Times_Prescribed, fill = State )) +
         geom_col(position = 'dodge') +
+        coord_flip() +
         theme(text = element_text(size=20),
-              axis.text.x = element_text(angle = 90, hjust = 1)) +
+              axis.text.x = element_text(hjust = 1)) +
         xlab('') +
         ylab('Prescription Count')
         
