@@ -17,9 +17,15 @@ shinyUI(
                         selectInput("specialty", 
                                     label = "Specialty:", 
                                     choices = specialties,
-                                    selected = 'Family Practice'),
+                                    selected = 'Family Practice'
+                                    ),
                         br(),
-                        checkboxGroupInput("checkbox", label = "Additional States", inline = TRUE, choices = states)
+                        
+                        selectInput("checkbox",
+                                    label = "Additional States",
+                                    choices = states,
+                                    multiple = TRUE,
+                                    selected = 'TN')
                     ),
                 
                 fluidRow(
