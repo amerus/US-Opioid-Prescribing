@@ -11,3 +11,7 @@ https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-R
 
 Drug counts in the app are total counts and not per capita. Hence, one trend is that higher population states will have higher number of prescriptions.
 The goal of this project was to showcase the interactive ability of R Shiny to replace the facets of static ggplot graphs.
+
+Live version of the app can be seen here:
+
+https://amerus.shinyapps.io/SpecialtyPrescriptions/
