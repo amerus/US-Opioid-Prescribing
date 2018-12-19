@@ -14,4 +14,4 @@ The goal of this project was to showcase the interactive ability of R Shiny to r
 
 Live version of the app can be seen here:
 
-https://amerus.shinyapps.io/SpecialtyPrescriptions/
+https://amerus.shinyapps.io/rshinyopioid/
