@@ -1,4 +1,3 @@
-## R Shiny App for Opioid Prescriptions Across Specialties and States
 ### R Shiny app facilitating self-discovery of total opioid prescriptions per provider specialty and state. 
 
 The data came from this Kaggle set: 
